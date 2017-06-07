@@ -1,5 +1,4 @@
 #Step1
-setwd("D:/Users/ytwangzd/Desktop/Data_Science_in_R/03_Getting_and_Cleaning_Data/")
 if(!file.exists("UCI HAR Dataset")){
   download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",destfile = "data.zip")
   unzip("data.zip")
